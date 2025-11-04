@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>giot</title>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giot</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <style>
+   
+  </style>
+ 
+</head>
+<body>
+
+<div class="container text-center">
+  <div class="card">
+      <h3 class="mb-4">🌤 VIEW THE WEATHER</h3>
+      <p class="text-muted">Click the button below to view the weather</p>
+
+      
+    
+      <input type="text" id="invalue" placeholder="">
+      <button type="button" id="btn2" class="btn btn-primary btn-sm px-4 py-1">Click</button>
+ 
+      
+
+   <div id="airData"></div>
+
+ 
+  <div id="pmTable" class="mt-4">
+  <h5 class="text-primary mb-3">📊 PM2.5 Levels (µg/m³) – Air Quality Warning</h5>
+  <table class="table table-bordered table-sm text-center align-middle">
+    <thead class="table-light">
+      <tr>
+        <th>Level</th>
+        <th>Range (µg/m³)</th>
+        <th>Air Quality</th>
+        <th>Health Advisory</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success">
+        <td>Good</td>
+        <td>0 - 12</td>
+        <td>Clean and healthy air</td>
+        <td>Safe for everyone</td>
+      </tr>
+      <tr class="table-info">
+        <td>Moderate</td>
+        <td>13 - 35</td>
+        <td>Acceptable air quality</td>
+        <td>Sensitive individuals should limit outdoor activities</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Unhealthy for Sensitive Groups</td>
+        <td>36 - 55</td>
+        <td>Mild air pollution</td>
+        <td>People with respiratory issues should stay indoors</td>
+      </tr>
+      <tr class="table-danger">
+        <td>Unhealthy</td>
+        <td>56 - 150</td>
+        <td>High air pollution</td>
+        <td>Avoid outdoor activities, wear a protective mask</td>
+      </tr>
+      <tr class="table-dark text-white">
+        <td>Very Unhealthy</td>
+        <td>> 150</td>
+        <td>Severe air pollution</td>
+        <td>Stay indoors and avoid outdoor exposure</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+      
+    
+
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
+  <script src="./js/index.js"></script>
+</body>
+</html>
